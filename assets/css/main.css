@@ -3569,6 +3569,48 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	/*Multimedia*/
+
+
+		.galeriaMultimedia {
+			display: grid;
+			gap:1rem;
+			grid-auto-flow: dense;
+			grid-auto-rows: 22rem;
+			grid-template-columns: repeat(auto-fill), minmax(15rem, 1fr);
+
+		  }
+		  
+		  .galeriaMultimedia:after {
+			display: flex;
+			/* display: grid; */
+			/* gap: 1rem; */
+			/* grid-auto-flow: dense; */
+			/* grid-auto-rows: 24rem; */
+
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+		  }
+		  
+		  .divsGaleria {
+			position: relative;
+			width: 100%;
+			height: 100%;
+		  }
+
+		  .div-clientes{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			
+		  }
+	.videoClass{
+		max-width: 80%;
+
+	}
+
+	
 /* Sidebar */
 
 	#sidebar {
