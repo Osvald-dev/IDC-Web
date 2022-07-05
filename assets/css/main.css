@@ -3605,6 +3605,14 @@ input, select, textarea {
 			padding: 0rem;
 		}
 	}
+	.neones{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.div-neones{
+		width: 60%;
+	}
 	
 /* Sidebar */
 
