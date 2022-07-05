@@ -3587,19 +3587,24 @@ input, select, textarea {
 		  }
 
 		  .div-clientes{
-		    width: 80%;
+		  
 			text-align: center;
-			padding: 1rem;
+			padding: .5rem;
 					
 		  }
 	.videoClass{
-		max-width: 80%;
+		max-width:100%;
 
 	}
 	.div-parrafos-galeria{
 		display: flex;
 	}
 
+	@media screen and (max-width: 460px) {
+		.div-clientes{
+			padding: 0rem;
+		}
+	}
 	
 /* Sidebar */
 
