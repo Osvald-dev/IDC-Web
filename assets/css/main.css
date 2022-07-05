@@ -3609,6 +3609,9 @@ input, select, textarea {
 		max-width: 80%;
 
 	}
+	.div-parrafos-galeria{
+		display: flex;
+	}
 
 	
 /* Sidebar */
