@@ -3594,11 +3594,15 @@ input, select, textarea {
 		  }
 	.videoClass{
 		max-width:100%;
+		margin: 0px 0px 44px;
 
 	}
 	.div-parrafos-galeria{
 		display: flex;
 	}
+/*	#fondo-galeria{
+		background-color: #3c3b3b!important;
+	}*/
 
 	@media screen and (max-width: 460px) {
 		.div-clientes{
