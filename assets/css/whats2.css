@@ -16,6 +16,9 @@
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
+.fa{
+  margin-left: 4px!important;
+}
 
 .nav-bottom {
   display: flex;
